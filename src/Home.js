@@ -102,6 +102,7 @@ export const Home = () => {
     <>
       <div>
           <h1>Welcome {location.state.id}</h1>
+          <Link to ="/">Back to Start Page</Link>
           <form action="Post">
             <input type="number" onChange={(e)=>{setIncome(e.target.value)}} placeholder="Income" id="text" />
             <form action="Post">

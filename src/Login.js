@@ -44,7 +44,7 @@ const Login = () => {
 
       <p>Or</p>
       <br />
-      <Link to="/signup">Signup</Link>
+      <Link to="/register">Signup</Link>
     </div>
     
   )
